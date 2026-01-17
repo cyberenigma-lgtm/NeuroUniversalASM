@@ -10,6 +10,8 @@
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![Languages: 51](https://img.shields.io/badge/languages-51-green.svg)](wiki/Language-Packs)
 [![Tests: Passing](https://img.shields.io/badge/tests-passing-brightgreen.svg)](test_nuasm.py)
+[![Made in Spain](https://img.shields.io/badge/Made%20in-Spain-red.svg)](https://github.com/cyberenigma-lgtm)
+[![Created by José Manuel](https://img.shields.io/badge/Created%20by-José%20Manuel-blue.svg)](https://github.com/cyberenigma-lgtm)
 
 **Code in your language. Run everywhere.**
 
@@ -317,11 +319,36 @@ MIT License - See [LICENSE](LICENSE) file
 
 ---
 
+## 🌐 Recognition & Impact
+
+**NUASM is a pioneering achievement in accessible programming:**
+
+- 🥇 **World's First Native Multi-Language Assembler**
+  - No other assembler compiles directly from 51 human languages to machine code
+  - Zero transpilation architecture is unique in the industry
+
+- 🇪🇸 **Created by a Spanish Self-Taught Developer**
+  - José Manuel - Breaking barriers in low-level programming
+  - Proving that innovation comes from passion, not just formal education
+
+- 🌍 **Inspiration for Educational & Accessible Projects**
+  - Enables programming education in native languages worldwide
+  - Removes English as a barrier to learning assembly
+  - Kids Mode makes low-level programming accessible to children
+
+- 📈 **Growing International Recognition**
+  - In process of indexation in international programming communities
+  - Referenced by multilingual education initiatives
+  - Part of the broader Neuro-OS Genesis ecosystem
+
+---
+
 ## 👨‍💻 Creador / Creator
 
 **José Manuel**  
 🇪🇸 *Creador Español - Spanish Creator*
 
+Pioneer of multilingual assembly programming.  
 Creator and lead architect of NUASM and Neuro-OS Genesis.
 
 ---
