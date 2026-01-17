@@ -270,7 +270,13 @@ We welcome contributions! Here's how you can help:
 
 ## 🔗 Part of Neuro-OS Genesis
 
-NUASM is a core component of the [Neuro-OS Genesis](https://github.com/cyberenigma-lgtm/Neuro-OS-Genesis) project—a revolutionary operating system with embedded AI.
+**NUASM is the public assembler of the Neuro-OS Genesis ecosystem.**
+
+[Neuro-OS Genesis](https://github.com/cyberenigma-lgtm/Neuro-OS-Genesis) is a revolutionary operating system with embedded AI and multi-platform capabilities.
+
+NUASM serves as the **multilingual assembly foundation** for the entire project, enabling kernel and system development in 51 human languages.
+
+**Other components remain private until further consolidation.**
 
 **Philosophy**: *"Este sistema nació aunque los demás no quieran"*  
 *(This system was born even though others didn't want it)*
