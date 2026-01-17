@@ -261,6 +261,41 @@ Total: 8 | Passed: 8 | Failed: 0
 
 ---
 
+## 📢 Call to All Developers
+
+**This is a call to the global developer community:**
+
+### 🎯 We Need You!
+
+NUASM is an **open-source project** looking for passionate developers:
+
+- **🔧 OS Developers (OSdev)**: Help us optimize for kernel development, bootloaders, and low-level systems
+- **🐍 Python Developers**: Improve the compiler, add features, optimize performance
+- **⚙️ Assembly Programmers**: Enhance instruction support, create examples, improve encoding
+- **🌍 Multilingual Developers**: Add new languages, improve existing packs, translate documentation
+- **📚 Technical Writers**: Create tutorials, improve documentation, write guides
+- **🧪 QA Engineers**: Write tests, find bugs, improve quality
+
+**No matter your language, background, or experience level** — if you're passionate about making programming accessible to everyone, **we want you on this project**.
+
+### 🌟 Why Join NUASM?
+
+- Work on a **world-first** technology
+- Contribute to **breaking language barriers** in programming
+- Learn **compiler design** and **low-level programming**
+- Be part of a **truly international** community
+- Your contributions will help **millions** learn programming in their native language
+
+### 🚀 How to Start?
+
+1. Check our [Contributing Guide](wiki/Contributing)
+2. Look at [Good First Issues](https://github.com/cyberenigma-lgtm/NeuroUniversalASM/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+3. [Join as a Contributor](https://github.com/cyberenigma-lgtm/NeuroUniversalASM/issues/new?template=join_contributor.md)
+
+**Together, we're building the future of universal programming.** 🌍
+
+---
+
 ## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
