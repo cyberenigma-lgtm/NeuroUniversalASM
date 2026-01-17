@@ -285,7 +285,7 @@ NUASM is the evolution of the MultiLang-ASM project:
 - **Status**: Superseded by NUASM
 
 ### MultiLang-ASM Kids Mode
-- **Repository**: [MultiLang-ASM Kids](https://github.com/cyberenigma-lgtm/MultiLang-ASM)
+- **Repository**: [MultiLang-ASM Kids](https://github.com/cyberenigma-lgtm/MultiLang-ASM-Kids)
 - **Description**: Educational mode with simplified mnemonics
 - **Status**: Fully integrated into NUASM
 
@@ -330,7 +330,7 @@ Creator and lead architect of NUASM and Neuro-OS Genesis.
 
 - 💬 [GitHub Discussions](https://github.com/cyberenigma-lgtm/Neuro-OS-Genesis/discussions)
 - 🐛 [Report Issues](https://github.com/cyberenigma-lgtm/Neuro-OS-Genesis/issues)
-- 📧 Email: neuro-os-team@example.com
+- 📧 Email: neuro.so.ia.sim@gmail.com
 
 ---
 
