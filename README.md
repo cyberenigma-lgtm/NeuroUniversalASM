@@ -1,6 +1,6 @@
 <div align="center">
 
-![NUASM Banner](https://raw.githubusercontent.com/cyberenigma-lgtm/Neuro-OS-Genesis/main/Neuro-Universal-ASM/assets/nuasm_banner.png)
+![NUASM Banner](assets/nuasm_banner.png)
 
 # NUASM — Neuro-Universal-ASM
 
