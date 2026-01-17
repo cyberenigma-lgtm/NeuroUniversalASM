@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📚 Documentation
+    url: https://github.com/cyberenigma-lgtm/NeuroUniversalASM/wiki
+    about: Check the wiki for guides and tutorials
+  - name: 💬 Discussions
+    url: https://github.com/cyberenigma-lgtm/NeuroUniversalASM/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 📧 Email Support
+    url: mailto:neuro.so.ia.sim@gmail.com
+    about: Contact the creator directly for complex issues
