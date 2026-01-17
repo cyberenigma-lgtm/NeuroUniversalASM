@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "code": "id",
+        "name": "Indonesian",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "pindah",
+            "salin",
+            "taruh"
+        ],
+        "xchg": [
+            "tukar"
+        ],
+        "lea": [
+            "muat_efektif"
+        ],
+        "movzx": [
+            "perpanjang_nol"
+        ],
+        "movsx": [
+            "perpanjang_tanda"
+        ],
+        "add": [
+            "tambah",
+            "jumlah"
+        ],
+        "sub": [
+            "kurang"
+        ],
+        "mul": [
+            "kali"
+        ],
+        "imul": [
+            "kali_tanda"
+        ],
+        "div": [
+            "bagi"
+        ],
+        "idiv": [
+            "bagi_tanda"
+        ],
+        "inc": [
+            "tambah_satu"
+        ],
+        "dec": [
+            "kurang_satu"
+        ],
+        "neg": [
+            "negatif"
+        ],
+        "and": [
+            "dan"
+        ],
+        "or": [
+            "atau"
+        ],
+        "not": [
+            "tidak"
+        ],
+        "xor": [
+            "eksklusif"
+        ],
+        "jmp": [
+            "lompat"
+        ],
+        "call": [
+            "panggil"
+        ],
+        "ret": [
+            "kembali"
+        ],
+        "je": [
+            "jika_sama"
+        ],
+        "jne": [
+            "jika_beda"
+        ],
+        "push": [
+            "masukkan"
+        ],
+        "pop": [
+            "keluarkan"
+        ],
+        "int": [
+            "interupsi"
+        ],
+        "syscall": [
+            "panggilan_sistem",
+            "tampil"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (id): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

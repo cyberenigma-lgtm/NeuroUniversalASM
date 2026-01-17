@@ -1,0 +1,69 @@
+{
+    "meta": {
+        "code": "nl_be",
+        "name": "Unknown",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "zet"
+        ],
+        "add": [
+            "tel_bij"
+        ],
+        "sub": [
+            "trek_af"
+        ],
+        "syscall": [
+            "toont"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (nl_be): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

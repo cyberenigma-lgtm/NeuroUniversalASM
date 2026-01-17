@@ -1,0 +1,139 @@
+{
+    "meta": {
+        "code": "ko",
+        "name": "Korean",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "이동",
+            "neoh"
+        ],
+        "xchg": [
+            "교환"
+        ],
+        "lea": [
+            "주소로드"
+        ],
+        "movzx": [
+            "영확장"
+        ],
+        "movsx": [
+            "부호확장"
+        ],
+        "add": [
+            "더하기",
+            "합",
+            "deohae"
+        ],
+        "pop": [
+            "빼기"
+        ],
+        "mul": [
+            "곱하기"
+        ],
+        "imul": [
+            "부호곱하기"
+        ],
+        "div": [
+            "나누기"
+        ],
+        "idiv": [
+            "부호나누기"
+        ],
+        "inc": [
+            "증가"
+        ],
+        "dec": [
+            "감소"
+        ],
+        "neg": [
+            "부정"
+        ],
+        "and": [
+            "그리고"
+        ],
+        "or": [
+            "또는"
+        ],
+        "xor": [
+            "배타적"
+        ],
+        "jmp": [
+            "점프"
+        ],
+        "call": [
+            "호출"
+        ],
+        "ret": [
+            "돌아가기"
+        ],
+        "je": [
+            "같으면"
+        ],
+        "jne": [
+            "다르면"
+        ],
+        "push": [
+            "넣기"
+        ],
+        "int": [
+            "인터럽트"
+        ],
+        "syscall": [
+            "시스템호출",
+            "boyeo"
+        ],
+        "sub": [
+            "ppaera"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (ko): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

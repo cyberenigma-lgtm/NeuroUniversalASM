@@ -1,0 +1,145 @@
+{
+    "meta": {
+        "code": "zh",
+        "name": "Chinese",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "移動",
+            "複製",
+            "fang"
+        ],
+        "xchg": [
+            "交換"
+        ],
+        "lea": [
+            "載入有效位址"
+        ],
+        "movzx": [
+            "零擴充"
+        ],
+        "movsx": [
+            "符號擴充"
+        ],
+        "add": [
+            "加",
+            "相加",
+            "jia"
+        ],
+        "sub": [
+            "減",
+            "相減",
+            "jian"
+        ],
+        "mul": [
+            "乘"
+        ],
+        "imul": [
+            "有符號乘"
+        ],
+        "div": [
+            "除"
+        ],
+        "idiv": [
+            "有符號除"
+        ],
+        "inc": [
+            "遞增"
+        ],
+        "dec": [
+            "遞減"
+        ],
+        "neg": [
+            "取負"
+        ],
+        "and": [
+            "且"
+        ],
+        "or": [
+            "或"
+        ],
+        "not": [
+            "非"
+        ],
+        "xor": [
+            "互斥或"
+        ],
+        "jmp": [
+            "跳躍"
+        ],
+        "call": [
+            "呼叫"
+        ],
+        "ret": [
+            "返回"
+        ],
+        "je": [
+            "若相等"
+        ],
+        "jne": [
+            "若不等"
+        ],
+        "push": [
+            "推入"
+        ],
+        "pop": [
+            "彈出"
+        ],
+        "int": [
+            "中斷"
+        ],
+        "syscall": [
+            "系統呼叫",
+            "kan"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (zh): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

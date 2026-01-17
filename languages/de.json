@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "code": "de",
+        "name": "Deutsch",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "bewegen",
+            "setze"
+        ],
+        "xchg": [
+            "tauschen"
+        ],
+        "lea": [
+            "effektiv_laden"
+        ],
+        "movzx": [
+            "null_erweitern"
+        ],
+        "movsx": [
+            "vorzeichen_erweitern"
+        ],
+        "add": [
+            "addieren",
+            "addiere"
+        ],
+        "sub": [
+            "subtrahieren",
+            "ziehe_ab"
+        ],
+        "mul": [
+            "multiplizieren"
+        ],
+        "imul": [
+            "multiplizieren_vorzeichen"
+        ],
+        "div": [
+            "dividieren"
+        ],
+        "idiv": [
+            "dividieren_vorzeichen"
+        ],
+        "inc": [
+            "inkrementieren"
+        ],
+        "dec": [
+            "dekrementieren"
+        ],
+        "neg": [
+            "negieren"
+        ],
+        "and": [
+            "und"
+        ],
+        "or": [
+            "oder"
+        ],
+        "not": [
+            "nicht"
+        ],
+        "xor": [
+            "exklusiv_oder"
+        ],
+        "jmp": [
+            "springen"
+        ],
+        "call": [
+            "rufen"
+        ],
+        "ret": [
+            "zurueckkehren"
+        ],
+        "int": [
+            "interruption",
+            "unterbrechung"
+        ],
+        "syscall": [
+            "zeige"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (de): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

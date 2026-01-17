@@ -1,0 +1,126 @@
+{
+    "meta": {
+        "code": "tr",
+        "name": "Turkish",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "taşı",
+            "kopyala",
+            "koy"
+        ],
+        "lea": [
+            "yukle"
+        ],
+        "add": [
+            "ekle"
+        ],
+        "sub": [
+            "çıkar",
+            "cikar"
+        ],
+        "mul": [
+            "çarp"
+        ],
+        "div": [
+            "böl"
+        ],
+        "inc": [
+            "artir"
+        ],
+        "dec": [
+            "azalt"
+        ],
+        "neg": [
+            "tersle"
+        ],
+        "and": [
+            "ve"
+        ],
+        "or": [
+            "veya"
+        ],
+        "not": [
+            "degil"
+        ],
+        "xor": [
+            "ozel_veya"
+        ],
+        "cmp": [
+            "karsilastir"
+        ],
+        "test": [
+            "sina"
+        ],
+        "jmp": [
+            "atla"
+        ],
+        "call": [
+            "çağır"
+        ],
+        "ret": [
+            "dön"
+        ],
+        "push": [
+            "it"
+        ],
+        "pop": [
+            "çek"
+        ],
+        "int": [
+            "kesme"
+        ],
+        "syscall": [
+            "goster"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (tr): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

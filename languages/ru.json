@@ -1,0 +1,143 @@
+{
+    "meta": {
+        "code": "ru",
+        "name": "Русский",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "перенести",
+            "положи"
+        ],
+        "xchg": [
+            "обменять"
+        ],
+        "lea": [
+            "загрузить_эффективный"
+        ],
+        "movzx": [
+            "расширить_нулями"
+        ],
+        "movsx": [
+            "расширить_знаком"
+        ],
+        "add": [
+            "добавить",
+            "сложить",
+            "добавь"
+        ],
+        "sub": [
+            "вычесть",
+            "отними"
+        ],
+        "mul": [
+            "умножить"
+        ],
+        "imul": [
+            "умножить_знак"
+        ],
+        "div": [
+            "разделить"
+        ],
+        "idiv": [
+            "разделить_знак"
+        ],
+        "inc": [
+            "увеличить"
+        ],
+        "dec": [
+            "уменьшить"
+        ],
+        "neg": [
+            "отрицание"
+        ],
+        "and": [
+            "и"
+        ],
+        "or": [
+            "или"
+        ],
+        "not": [
+            "не"
+        ],
+        "xor": [
+            "исключающее"
+        ],
+        "jmp": [
+            "прыгнуть"
+        ],
+        "call": [
+            "вызвать"
+        ],
+        "ret": [
+            "вернуться"
+        ],
+        "je": [
+            "если_равно"
+        ],
+        "jne": [
+            "если_не_равно"
+        ],
+        "push": [
+            "положить"
+        ],
+        "pop": [
+            "извлечь"
+        ],
+        "int": [
+            "прерывание"
+        ],
+        "syscall": [
+            "системный_вызов",
+            "покажи"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (ru): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

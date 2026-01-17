@@ -1,0 +1,142 @@
+{
+    "meta": {
+        "code": "ja",
+        "name": "Japanese",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "移動",
+            "コピー",
+            "irete"
+        ],
+        "xchg": [
+            "交換"
+        ],
+        "lea": [
+            "実効アドレス読込"
+        ],
+        "movzx": [
+            "ゼロ拡張"
+        ],
+        "movsx": [
+            "符号拡張"
+        ],
+        "add": [
+            "加算",
+            "足す",
+            "tashite"
+        ],
+        "sub": [
+            "減算",
+            "引く",
+            "hiite"
+        ],
+        "mul": [
+            "乗算"
+        ],
+        "imul": [
+            "符号付乗算"
+        ],
+        "div": [
+            "除算"
+        ],
+        "idiv": [
+            "符号付除算"
+        ],
+        "inc": [
+            "インクリメント"
+        ],
+        "dec": [
+            "デクリメント"
+        ],
+        "neg": [
+            "否定"
+        ],
+        "and": [
+            "論理積"
+        ],
+        "or": [
+            "論理和"
+        ],
+        "xor": [
+            "排他的論理和"
+        ],
+        "jmp": [
+            "ジャンプ"
+        ],
+        "call": [
+            "呼出"
+        ],
+        "ret": [
+            "戻る"
+        ],
+        "je": [
+            "等しければ"
+        ],
+        "jne": [
+            "等しくなければ"
+        ],
+        "push": [
+            "プッシュ"
+        ],
+        "pop": [
+            "ポップ"
+        ],
+        "int": [
+            "割込"
+        ],
+        "syscall": [
+            "システムコール",
+            "misete"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (ja): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

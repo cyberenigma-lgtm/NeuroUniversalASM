@@ -1,0 +1,290 @@
+{
+    "meta": {
+        "code": "pt",
+        "name": "Português",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "mover",
+            "copiar",
+            "coloca"
+        ],
+        "xchg": [
+            "trocar"
+        ],
+        "lea": [
+            "carregar_efetivo"
+        ],
+        "movzx": [
+            "estender_zero"
+        ],
+        "movsx": [
+            "estender_sinal"
+        ],
+        "add": [
+            "somar",
+            "adicionar",
+            "soma"
+        ],
+        "sub": [
+            "subtrair",
+            "tira"
+        ],
+        "mul": [
+            "multiplicar"
+        ],
+        "imul": [
+            "multiplicar_sinal"
+        ],
+        "div": [
+            "dividir"
+        ],
+        "idiv": [
+            "dividir_sinal"
+        ],
+        "inc": [
+            "incrementar"
+        ],
+        "dec": [
+            "decrementar"
+        ],
+        "neg": [
+            "negar"
+        ],
+        "and": [
+            "e"
+        ],
+        "or": [
+            "ou"
+        ],
+        "not": [
+            "nao"
+        ],
+        "xor": [
+            "exclusivo"
+        ],
+        "shl": [
+            "deslocar_esq"
+        ],
+        "shr": [
+            "deslocar_dir"
+        ],
+        "rol": [
+            "rotacionar_esq"
+        ],
+        "ror": [
+            "rotacionar_dir"
+        ],
+        "cmp": [
+            "comparar"
+        ],
+        "test": [
+            "testar"
+        ],
+        "jmp": [
+            "desviar",
+            "saltar"
+        ],
+        "call": [
+            "chamar"
+        ],
+        "ret": [
+            "retornar",
+            "voltar"
+        ],
+        "je": [
+            "se_igual"
+        ],
+        "jz": [
+            "se_cero"
+        ],
+        "jne": [
+            "se_nao_igual"
+        ],
+        "jnz": [
+            "se_nao_cero"
+        ],
+        "jg": [
+            "se_maior"
+        ],
+        "jge": [
+            "se_maior_igual"
+        ],
+        "jl": [
+            "si_menor"
+        ],
+        "jle": [
+            "si_menor_igual"
+        ],
+        "ja": [
+            "se_acima"
+        ],
+        "jb": [
+            "se_abaixo"
+        ],
+        "jae": [
+            "se_acima_igual"
+        ],
+        "jbe": [
+            "se_abaixo_igual"
+        ],
+        "js": [
+            "se_sinal"
+        ],
+        "jns": [
+            "se_nao_sinal"
+        ],
+        "jo": [
+            "se_transbordo"
+        ],
+        "jno": [
+            "se_nao_transbordo"
+        ],
+        "jp": [
+            "se_paridade"
+        ],
+        "jnp": [
+            "se_nao_paridade"
+        ],
+        "push": [
+            "empilhar"
+        ],
+        "pop": [
+            "desempilhar"
+        ],
+        "pushf": [
+            "empilhar_flags"
+        ],
+        "popf": [
+            "desempilhar_flags"
+        ],
+        "movsb": [
+            "mover_byte"
+        ],
+        "movsw": [
+            "mover_palavra"
+        ],
+        "movsd": [
+            "mover_dupla"
+        ],
+        "stosb": [
+            "armazenar_byte"
+        ],
+        "lodsb": [
+            "cargar_byte"
+        ],
+        "scasb": [
+            "escanear_byte"
+        ],
+        "rep": [
+            "repetir"
+        ],
+        "repne": [
+            "repetir_enquanto"
+        ],
+        "loop": [
+            "repetir_ciclo"
+        ],
+        "loopz": [
+            "repetir_se_zero"
+        ],
+        "loopnz": [
+            "repetir_se_nao_zero"
+        ],
+        "int": [
+            "interrupcao"
+        ],
+        "syscall": [
+            "chamada_sistema",
+            "mostra"
+        ],
+        "sysret": [
+            "retorno_sistema"
+        ],
+        "iret": [
+            "retorno_interrupcao"
+        ],
+        "nop": [
+            "nada"
+        ],
+        "hlt": [
+            "parar"
+        ],
+        "cli": [
+            "limpar_interrupcoes"
+        ],
+        "sti": [
+            "activar_interrupcoes"
+        ],
+        "cld": [
+            "limpar_direcao"
+        ],
+        "std": [
+            "fixar_direcao"
+        ],
+        "wait": [
+            "esperar"
+        ],
+        "cbw": [
+            "converter_byte_palavra"
+        ],
+        "cwd": [
+            "converter_palavra_dupla"
+        ],
+        "cdq": [
+            "converter_dupla_quadrupla"
+        ],
+        "cqo": [
+            "converter_quadrupla_octupla"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (pt): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

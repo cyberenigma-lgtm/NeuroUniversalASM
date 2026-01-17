@@ -1,0 +1,129 @@
+{
+    "meta": {
+        "code": "nl",
+        "name": "Dutch",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "verplaats",
+            "zet"
+        ],
+        "lea": [
+            "laad"
+        ],
+        "xchg": [
+            "wissel"
+        ],
+        "add": [
+            "optellen",
+            "tel_op"
+        ],
+        "sub": [
+            "aftrekken",
+            "trek_af"
+        ],
+        "mul": [
+            "vermenigvuldig"
+        ],
+        "div": [
+            "delen"
+        ],
+        "inc": [
+            "verhoog"
+        ],
+        "dec": [
+            "verlaag"
+        ],
+        "neg": [
+            "negeer"
+        ],
+        "and": [
+            "en"
+        ],
+        "or": [
+            "of"
+        ],
+        "not": [
+            "niet"
+        ],
+        "xor": [
+            "exclusief"
+        ],
+        "cmp": [
+            "vergelijk"
+        ],
+        "test": [
+            "test"
+        ],
+        "jmp": [
+            "spring"
+        ],
+        "call": [
+            "roep"
+        ],
+        "ret": [
+            "terug"
+        ],
+        "push": [
+            "duw"
+        ],
+        "pop": [
+            "plop"
+        ],
+        "int": [
+            "onderbreking"
+        ],
+        "syscall": [
+            "toon"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (nl): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

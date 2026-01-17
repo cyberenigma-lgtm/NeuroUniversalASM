@@ -1,0 +1,49 @@
+# ========================================
+# COMANDOS PARA SUBIR NUASM A GITHUB
+# Copia y pega en PowerShell
+# ========================================
+
+# 1. Navegar al proyecto
+cd "C:\Users\cyber\OneDrive\Documentos\NeuroOs\Neuro-OS-Genesis\Neuro-Universal-ASM"
+
+# 2. Limpiar Git anterior
+Remove-Item -Recurse -Force .git -ErrorAction SilentlyContinue
+
+# 3. Inicializar Git
+git init
+
+# 4. Configurar usuario
+git config user.name "Jose Manuel"
+git config user.email "cyberenigma@neuro-os.dev"
+
+# 5. Añadir archivos
+git add .
+
+# 6. Crear commit
+git commit -m "Initial commit: NUASM - The World's First Multi-Language Assembler
+
+Features:
+- 51 language packs supported (Spanish, English, Hindi, Arabic, Japanese, etc.)
+- Zero transpilation - Direct to x86-64 machine code
+- Kids Mode built-in for education
+- 100% compatible with MultiLang-ASM
+- Complete multilingual wiki documentation
+- Professional README with banner
+- All tests passing (8/8)
+
+Created by Jose Manuel - Spanish Creator
+Part of Neuro-OS Genesis project"
+
+# 7. IMPORTANTE: Reemplaza TU_TOKEN_AQUI con tu token real
+git remote add origin https://TU_TOKEN_AQUI@github.com/cyberenigma-lgtm/NeuroUniversalASM.git
+
+# 8. Cambiar a main
+git branch -M main
+
+# 9. Subir con force (sobrescribe wiki existente)
+git push -u origin main --force
+
+# ========================================
+# LISTO! Ve a:
+# https://github.com/cyberenigma-lgtm/NeuroUniversalASM
+# ========================================

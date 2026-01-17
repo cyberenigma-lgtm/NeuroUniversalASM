@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Tests temporales
+test_temp*
+test_simple*
+test_debug*
+test_kids_mode.asm
+test_kids.bin
+
+# Binarios temporales
+output.bin
+output.exe
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+
+# Builds temporales
+build/
+dist/
+*.egg-info/
+
+# Documentos privados
+PRIVATE_*
+SECRET_*

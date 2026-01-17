@@ -1,0 +1,145 @@
+{
+    "meta": {
+        "code": "ar",
+        "name": "Arabic",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "نقل",
+            "da"
+        ],
+        "xchg": [
+            "تبديل"
+        ],
+        "lea": [
+            "تحميل_فعال"
+        ],
+        "movzx": [
+            "توسيع_صفر"
+        ],
+        "movsx": [
+            "توسيع_إشارة"
+        ],
+        "add": [
+            "جمع",
+            "إضافة",
+            "ijma"
+        ],
+        "sub": [
+            "طرح",
+            "itrah"
+        ],
+        "mul": [
+            "ضرب"
+        ],
+        "imul": [
+            "ضرب_إشارة"
+        ],
+        "div": [
+            "قسمة"
+        ],
+        "idiv": [
+            "قسمة_إشارة"
+        ],
+        "inc": [
+            "زيادة"
+        ],
+        "dec": [
+            "نقص"
+        ],
+        "neg": [
+            "نفي"
+        ],
+        "and": [
+            "و"
+        ],
+        "or": [
+            "أو"
+        ],
+        "not": [
+            "ليس"
+        ],
+        "xor": [
+            "أو_حصري"
+        ],
+        "jmp": [
+            "اقفز"
+        ],
+        "call": [
+            "اتصل",
+            "استدعاء"
+        ],
+        "ret": [
+            "عد",
+            "رجوع"
+        ],
+        "je": [
+            "إذا_يساوي"
+        ],
+        "jne": [
+            "إذا_لا_يساوي"
+        ],
+        "push": [
+            "ادفع"
+        ],
+        "pop": [
+            "اسحب"
+        ],
+        "int": [
+            "مقاطعة"
+        ],
+        "syscall": [
+            "استدعاء_النظام",
+            "anzur"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (ar): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

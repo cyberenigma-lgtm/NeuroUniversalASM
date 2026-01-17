@@ -1,0 +1,126 @@
+{
+    "meta": {
+        "code": "hi",
+        "name": "Hindi",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "bhejo",
+            "rakho",
+            "sthan"
+        ],
+        "add": [
+            "joro",
+            "jodo"
+        ],
+        "sub": [
+            "ghatao"
+        ],
+        "mul": [
+            "guna"
+        ],
+        "div": [
+            "bhag"
+        ],
+        "inc": [
+            "badhao"
+        ],
+        "dec": [
+            "ghatao_ek"
+        ],
+        "neg": [
+            "na"
+        ],
+        "and": [
+            "aur"
+        ],
+        "or": [
+            "ya"
+        ],
+        "not": [
+            "nahi"
+        ],
+        "xor": [
+            "alag"
+        ],
+        "cmp": [
+            "tulna"
+        ],
+        "test": [
+            "pariksha"
+        ],
+        "lea": [
+            "pata_load"
+        ],
+        "jmp": [
+            "kudo"
+        ],
+        "call": [
+            "bulao"
+        ],
+        "ret": [
+            "wapas"
+        ],
+        "push": [
+            "daalo"
+        ],
+        "pop": [
+            "nikalo"
+        ],
+        "int": [
+            "rok"
+        ],
+        "syscall": [
+            "dikhao"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (hi): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}

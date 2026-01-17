@@ -1,0 +1,125 @@
+{
+    "meta": {
+        "code": "sv",
+        "name": "Swedish",
+        "version": "1.0"
+    },
+    "instructions": {
+        "mov": [
+            "flytta",
+            "stall"
+        ],
+        "lea": [
+            "ladda"
+        ],
+        "add": [
+            "addera"
+        ],
+        "sub": [
+            "subtrahera",
+            "dra_av"
+        ],
+        "mul": [
+            "multiplicera"
+        ],
+        "div": [
+            "dividera"
+        ],
+        "inc": [
+            "oka"
+        ],
+        "dec": [
+            "minska"
+        ],
+        "neg": [
+            "negera"
+        ],
+        "and": [
+            "och"
+        ],
+        "or": [
+            "eller"
+        ],
+        "not": [
+            "inte"
+        ],
+        "xor": [
+            "xor"
+        ],
+        "cmp": [
+            "jamfor"
+        ],
+        "test": [
+            "testa"
+        ],
+        "jmp": [
+            "hoppa"
+        ],
+        "call": [
+            "kalla"
+        ],
+        "ret": [
+            "returnera"
+        ],
+        "push": [
+            "tryck"
+        ],
+        "pop": [
+            "pop"
+        ],
+        "int": [
+            "avbrott"
+        ],
+        "syscall": [
+            "visa"
+        ],
+        "section": [
+            "section",
+            "seccion",
+            "sezione",
+            "abschnitt",
+            "bolum",
+            "sekcja"
+        ],
+        "global": [
+            "global",
+            "globl"
+        ],
+        "extern": [
+            "extern"
+        ],
+        "db": [
+            "db",
+            "defb",
+            "byte",
+            "define_byte"
+        ],
+        "dw": [
+            "dw",
+            "defw",
+            "word",
+            "define_word"
+        ],
+        "resb": [
+            "resb",
+            "reserva_byte"
+        ],
+        "movaps": [
+            "movaps"
+        ],
+        "addps": [
+            "addps"
+        ],
+        "subps": [
+            "subps"
+        ]
+    },
+    "comments": {
+        "prefix": ";"
+    },
+    "errors": {
+        "ERR_UNKNOWN_OPCODE": "Unknown/Desconocido (sv): '{0}'",
+        "ERR_INVALID_OPERAND": "Invalid Operand",
+        "ERR_FILE_NOT_FOUND": "File Not Found"
+    }
+}
