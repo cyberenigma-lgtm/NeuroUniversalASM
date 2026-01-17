@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ## 👋 Introduction
-Tell us about yourself!
+Tell us about yourself! **You can write in any of the 51 supported languages** — NUASM is universal.
 
 **Name**: 
 **GitHub**: @

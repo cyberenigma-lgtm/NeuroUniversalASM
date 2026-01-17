@@ -6,6 +6,8 @@
 
 ### *The World's First Native Multi-Language Assembler*
 
+**Universal by design — Created in Spain**
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![Languages: 51](https://img.shields.io/badge/languages-51-green.svg)](wiki/Language-Packs)
@@ -14,6 +16,8 @@
 [![Created by José Manuel](https://img.shields.io/badge/Created%20by-José%20Manuel-blue.svg)](https://github.com/cyberenigma-lgtm)
 
 **Code in your language. Run everywhere.**
+
+> *NUASM is truly universal: Hindi, Spanish, Japanese, American English, Australian English — all languages are first-class citizens. No language is foreign here.*
 
 [Quick Start](#-quick-start) • [Documentation](wiki/Home) • [Examples](wiki/Examples-es) • [Contributing](wiki/Contributing)
 
@@ -24,6 +28,8 @@
 ## 🌍 What is NUASM?
 
 NUASM (Neuro-Universal-ASM) is a revolutionary x86-64 assembler that understands **51 languages natively**. Unlike traditional assemblers, NUASM compiles directly from your native language to machine code—**no transpilation needed**.
+
+**Universal means universal**: 51 languages, no cultural priority, no "main" language. Whether you speak Hindi, Spanish, Japanese, American English, or Australian English — all are equal before the machine.
 
 ```asm
 # Spanish                    # English                    # Hindi
