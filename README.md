@@ -328,6 +328,10 @@ NUASM serves as the **multilingual assembly foundation** for the entire project,
 
 NUASM is the evolution of the MultiLang-ASM project:
 
+### 📜 Genealogía del Ecosistema
+- **Documento**: [Evolución de Neuro‑ASM](docs/genealogia_neuro_asm.md)
+- **Descripción**: Trazabilidad completa desde el primer MultiLang-ASM hasta la inyección de voluntad en silicio (NWC).
+
 ### MultiLang-ASM (Predecessor)
 - **Repository**: [MultiLang-ASM](https://github.com/cyberenigma-lgtm/MultiLang-ASM)
 - **Description**: Original multi-language assembler with transpilation to English
